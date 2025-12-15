@@ -4,6 +4,11 @@
 
 ---
 
+### 🚀 Live API:
+🔗 Backend Hosted on Render: https://library-manager-apis.onrender.com/
+
+---
+
 **Features**
 - CRUD operations for books (protected — Librarian role required for create/update/delete)
 - User registration & login (JWT authentication)
