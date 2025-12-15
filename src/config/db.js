@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 require("dotenv").config();
-mongoose.connect(`mongodb+srv://${process.env.mongoURI}`);
+mongoose.connect(process.env.mongoURI);
 
 const db = mongoose.connection;
 
