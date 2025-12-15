@@ -9,8 +9,8 @@ db.on("connected", () => {
   console.log("Connected to MongoDB database");
 });
 
-db.on("error", ()=>{
-    console.log("Error connecting to MongoDB database");
+db.on("error", (error) => {
+    console.log("Error connecting to MongoDB database", error);
 });
 
 module.exports = db;
